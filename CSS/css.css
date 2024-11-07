@@ -1,0 +1,78 @@
+body{
+    margin: 2cm;
+    background-image: url(../img/fondoo.jpg);}
+h1{
+    color:rgb(120, 84, 150);
+    font-size:25px;
+    text-shadow: 5px 5px 2px grey;
+    text-decoration: underline;
+    text-align: center;
+    color: rgb(0,0,225)
+}
+p{
+    text-indent: 1cm;
+    text-align: justify;
+    color: gray;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+h2{
+    font-size:20px;
+    text-align: left;
+    color: rgb(0,0,225);
+    font-style: italic;
+    font-weight: bold;
+
+}
+table{
+    background-color: chartreuse;
+    align-items: center;
+}
+
+header{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+div{
+    border-radius: 5px;
+    border-style: groove;
+    color: rgb(179, 102, 102);
+    display: inline-block;
+    background-color: rgb(0,0,0);
+    width: 32%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    height: 30px;
+    font-size: x-large;
+}
+.botton:hover{
+    background-color: rgb(100, 50, 22);
+}
+footer{
+    margin-top: 20px;
+    margin-left: -2cm;
+    margin-right: -3cm;
+}
+section{
+    border-width: 3px;
+    width: 45%;
+    display: inline-block;
+    border-style: double;
+    font-size: large;
+    color: rgb(32, 12, 145);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: rgb(229, 255, 0);
+}
+iframe{
+    min-height: 500px;
+    width: 80%;
+    border-width: 10px;
+    border-color:firebrick;
+}
+audio{
+    box-align: center;
+}
